@@ -1,55 +1,52 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Em um filme de terror, qual a chance do seu personagem sobreviver?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Qual o seu nivel de curiosidade?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Muito", "alias":"B"},
+        {"id": 3, "name":"Pouco", "alias":"A"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Ao assitir um filme de terror, qual o nivel de indignição que você fica com as escolhas feitas pelos personagens? ",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Muito, eu faria o inverso.", "alias":"A"},
+        {"id": 2, "name":"Normal, eu faria o mesmo.", "alias":"B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "A conversa começa a fica estranha durante uma ligação com o antagonista, o que você faz?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Desliga o telefone, liga para a polícia imediatamente e se esconde.", "alias":"A"},
+        {"id": 2, "name":"Continua ao telefone batendo papo pois isso só acontece em filme.", "alias":"B"},
+        {"id": 3, "name":"Convida ele para entrar e assistir o filme sexta-feira 13.", "alias":"B"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Você esta sozinho em casa e escuta barulhos advindo de um dos cômodos, o que você faz ?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Ignora o barulho pois deve ser algum bicho que entrou por algum lugar secreto.", "alias":"B"},
+        {"id": 2, "name":"Vai verificar pois seu bairro é muito seguro algo de ruim acontecer.", "alias":"B"},
+        {"id": 3, "name":"Se tranca no quarto e liga para a polícia.", "alias":"A"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Você e mais 3 amigos estão em uma cabana remota e percebem movimentos e barulhos suspeitos do lado de fora, o que vcs fariam?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Você falaria para todos ficar dentro pois você iria verificar sozinho lá fora.", "alias":"B"},
+        {"id": 2, "name":"Todos ficariam dentro e buscariam juntos algo para se defenderem.", "alias":"A"},
+        {"id": 1, "name":"Ignoram pois o mundo é um lugar seguro não importa onde você esteja.", "alias":"B"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Parabéns! Você teria uma boa chance de sobreviver a um filme de terror.",
+    "B": "Sinto muito mas é melhor você escolher outro gênero de filme para sobreviver."
   }
 }

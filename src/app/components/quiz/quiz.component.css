@@ -2,7 +2,6 @@
   width: 80%;
   margin: auto;
   margin-top: 20px;
-  border: 1px solid black;
 }
 
 .quiz_logo {
@@ -20,13 +19,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #4224d9;
+  border: 1px solid #ffffff;
   border-radius: 8px;
-  background-color: #654ed2;
+  background-color: #660000;
   height: 200px;
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 20px;
+  padding: 0 20px;
 }
 
 .quiz_options {
@@ -39,7 +39,7 @@
 .btn_option {
   background-color: transparent;
   border-radius: 8px;
-  border:1px solid #18ab29;
+  border:1px solid #ffffff;
   width: 50%;
   cursor: pointer;
   color: #fff;
@@ -50,7 +50,7 @@
   text-shadow: 0 1px 0 #2f6627;
 }
 .btn_option:hover {
-  background-color: #5cbf2a;
+  background-color: #2a4abf;
 }
 
 .btn_option:active {
@@ -60,7 +60,8 @@
 
 .quiz_results {
   height: 350px;
-  background-color: rgb(33,2,57);
+  border: 1px solid white;
+  background-color: #660000;
   border-radius: 10px;
   padding: 30px;
   display: flex;
